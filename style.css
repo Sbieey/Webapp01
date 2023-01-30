@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding:0;
+}
+header nav{
+			
+    width:100%;
+    height:60px;
+    background-color:rgb(25, 59, 59);
+}
+body{
+
+      background-color: rgba(91, 104, 104, 0.541);
+      margin:0 auto;
+}
+#container{
+    width: 1200px;
+    margin: 0 auto; 
+    border: 1px solid black;
+    font-family: arial, verdana, sans-serif	;
+}
+    #header{
+        background: brown;
+        width: 1180px;
+        padding: 20px 10px;
+        color:white;
+    }
+    #nav{
+        background: orange;
+        width: 1200px;
+    }
+        #nav ul{
+            list-style: none;
+        }
+            #nav ul li{
+            float: left;
+            width: 240px;
+            padding: 15px 0;
+            text-align: center;
+            transition: background 1s;
+        }
+            #nav ul li:hover{
+            background: #ffd280;
+            color:brown;
+        }
+            #nav a{
+                color: black;
+            }
+    #middle{}
+        #left{
+            width: 800px;
+            height: 600px;
+            float: left;
+        }
+            .post{
+                margin: 20px;
+            }
+                .title{
+                    background: brown;
+                    padding: 15px 10px;
+                    color: white;
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+                .description{
+                    background: #f1f1f1;
+                    padding: 20px;
+                }
+        #right{
+            width: 360px;
+            height:600px;
+            float: left;
+            padding: 20px;
+        }
+            #right h2{
+                text-align: center; 
+            }
+            .latest_post{
+                background: brown;
+                text-align: center;
+                padding: 10px 0;
+                color: white;
+                margin: 10px 0;
+            }
+            #news_letter{
+
+            }
+                .news_letter_head{
+                    font-size: 25px;
+                    text-align: center;
+                }
+                    input[type="text"]{
+                        width: 360px;
+                        height: 30px;
+                    }
+                    input[type="submit"]{
+                        margin: 10px 0;
+                        width: 360px;
+                        background:white;
+                        color:black;
+                        padding: 10px 0;
+                        border: none;
+                    }
+                    input[type="submit"]:hover{
+                        cursor: pointer;
+                        background:green;
+                        color: white;
+                    }
+    #footer{
+        background: brown;
+        width: 1200px;
+        color:white;
+        text-align:center;
+        padding: 10px 0;
+    }
